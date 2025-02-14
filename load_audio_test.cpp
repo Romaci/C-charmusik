@@ -9,7 +9,9 @@ using namespace std;
 
 int main()
 {
-        // Crear una semilla basada en el tiempo actual
+    /*
+    //            ****Random****
+    // Crear una semilla basada en el tiempo actual
    random_device rd;
 
     // Crear un generador de números aleatorios con la semilla
@@ -17,11 +19,12 @@ int main()
 
     // Crear un distribuidor para generar números entre 1 y 100
     uniform_int_distribution<> dis(1, 100);
+    //****************************************
+    */
 
     // Crear la ventana usando Vector2u
     sf::RenderWindow window(sf::VideoMode({600, 600}), "Ventana SFML");
-
-        // Crear un círculo de radio 50
+    // Crear un círculo de radio 50
     sf::CircleShape circle(50);  
     // Establecer el color de relleno a rojo
     circle.setFillColor(sf::Color::Red);  
