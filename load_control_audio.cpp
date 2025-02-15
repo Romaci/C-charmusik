@@ -4,6 +4,7 @@
 #include <thread> 
 #include <chrono>
 
+
 using namespace std;
 
 int main (){
@@ -18,6 +19,7 @@ if(!buffer.loadFromFile("dirty_house.wav"))
 
 
 sf:: Sound sound (buffer);
+
 
 cout << "Controls:\n";
 cout << "  P - Play\n";
